@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+    
+    .grid{
+        display: grid;
+        grid-template-rows: 20vh 60vh 20vh;
+        grid-template-columns: auto;
+    }
+    
+    #sign-in{
+        position: relative;
+        right: 15px;
+    }
+
+    .tr{
+        position: relative;
+        top: 15px;
+    }
+    .bl{
+        text-align: left;
+    }
+    .bc{
+        text-align: center;
+    }
+    a:hover{
+        color: rgb(29, 29, 29);
+
+    }
+}
